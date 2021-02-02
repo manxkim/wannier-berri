@@ -247,6 +247,6 @@ def opt_SHCqiao(data, Efermi, omega=0, kBT=0, smr_fixed_width=0.1, smr_type='Lor
 
 def opt_SHCryoo(data, Efermi, omega=0,  kBT=0, smr_fixed_width=0.1, smr_type='Lorentzian', adpt_smr=False,
                 adpt_smr_fac=np.sqrt(2), adpt_smr_max=0.1, adpt_smr_min=1e-15, shc_alpha=1, shc_beta=2, shc_gamma=3):
-    return opt_conductivity(data, Efermi, omega,  kBT, smr_fixed_width, smr_type, adpt_smr,
+    return opt_conductivity(data, Efermi, omega, kBT, smr_fixed_width, smr_type, adpt_smr,
                 adpt_smr_fac, adpt_smr_max, adpt_smr_min, shc_alpha, shc_beta, shc_gamma,
-                conductivity_type='SHC', SHC_type='qiao')
+                conductivity_type='SHC', SHC_type='ryoo')
