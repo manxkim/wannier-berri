@@ -110,8 +110,8 @@ parameters_optical={
 'adpt_smr_max'    :  (  0.1 , "maximal value of the adaptive smearing parameter in eV" ),
 'adpt_smr_min'    :  ( 1e-15,  "minimal value of the adaptive smearing parameter in eV"),
 'shc_alpha'       :  ( 1    ,  "direction of spin current (1, 2, 3)"),
-'shc_beta'        :  ( 1    ,  "direction of applied electric field (1, 2, 3)"),
-'shc_gamma'       :  ( 1    ,  "direction of spin polarization (1, 2, 3)"),}
+'shc_beta'        :  ( 2    ,  "direction of applied electric field (1, 2, 3)"),
+'shc_gamma'       :  ( 3    ,  "direction of spin polarization (1, 2, 3)"),}
 
 
 
