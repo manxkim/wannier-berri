@@ -99,6 +99,12 @@ additional_parameters['opt_SHCryoo']['adpt_smr_max'] = 0.1
 additional_parameters_description['opt_SHCryoo']['adpt_smr_max'] = "maximal value of the adaptive smearing parameter in eV"
 additional_parameters['opt_SHCryoo']['adpt_smr_min'] = 1e-15
 additional_parameters_description['opt_SHCryoo']['adpt_smr_min'] = "minimal value of the adaptive smearing parameter in eV"
+additional_parameters['opt_SHCryoo']['shc_alpha'] = 1
+additional_parameters_description['opt_SHCryoo']['adpt_smr_min'] = "direction of spin current (1, 2, or 3)"
+additional_parameters['opt_SHCryoo']['shc_beta'] = 2
+additional_parameters_description['opt_SHCryoo']['adpt_smr_min'] = "direction of electric field (1, 2, or 3)"
+additional_parameters['opt_SHCryoo']['shc_gamma'] = 3
+additional_parameters_description['opt_SHCryoo']['adpt_smr_min'] = "direction of spin polarization (1, 2, or 3)"
 
 #additional_parameters['opt_SHCqiao']['mu'] = 18.1299 #12.8623 for Fe #18.1299 For platinum
 #additional_parameters_description['opt_SHCqiao']['mu'] = "chemical potential in units of eV"
@@ -116,7 +122,12 @@ additional_parameters['opt_SHCqiao']['adpt_smr_max'] = 0.1
 additional_parameters_description['opt_SHCqiao']['adpt_smr_max'] = "maximal value of the adaptive smearing parameter in eV"
 additional_parameters['opt_SHCqiao']['adpt_smr_min'] = 1e-15
 additional_parameters_description['opt_SHCqiao']['adpt_smr_min'] = "minimal value of the adaptive smearing parameter in eV"
-
+additional_parameters['opt_SHCqiao']['shc_alpha'] = 1
+additional_parameters_description['opt_SHCqiao']['adpt_smr_min'] = "direction of spin current (1, 2, or 3)"
+additional_parameters['opt_SHCqiao']['shc_beta'] = 2
+additional_parameters_description['opt_SHCqiao']['adpt_smr_min'] = "direction of electric field (1, 2, or 3)"
+additional_parameters['opt_SHCqiao']['shc_gamma'] = 3
+additional_parameters_description['opt_SHCqiao']['adpt_smr_min'] = "direction of spin polarization (1, 2, or 3)"
 
 calculators=copy(calculators_trans)
 calculators.update(calculators_opt)
