@@ -80,7 +80,7 @@ def fermiSurf(EF, E, kBT):   # returns arra [iF, n ]
 
 
 def kubo_sum_elements(x, y, num_wann):
-    # Compute np.einsum('mnab,wnm->wab', x, y).
+    # Compute np.einsum('nmab,wnm->wab', x, y).
     # This implementation is much faster than calling np.einsum.
     assert y.shape[1] == num_wann
     assert y.shape[2] == num_wann
