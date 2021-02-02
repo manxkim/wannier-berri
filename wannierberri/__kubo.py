@@ -116,7 +116,7 @@ def opt_conductivity(data, Efermi,omega=None,  kBT=0, smr_fixed_width=0.1, smr_t
         sigma_H = np.zeros((Efermi.shape[0],omega.shape[0]), dtype=np.dtype('complex128'))
         sigma_AH = np.zeros((Efermi.shape[0],omega.shape[0]), dtype=np.dtype('complex128'))
         rank=0
-        shc_alpha = shc_alpha - 1
+        shc_alpha = shc_alpha - 1 #In python, indices start from 0.
         shc_beta = shc_beta - 1
         shc_gamma = shc_gamma - 1
 
